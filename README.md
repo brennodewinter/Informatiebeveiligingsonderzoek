@@ -109,3 +109,43 @@ Omdat het vaak bij informatiebeveiligingsonderzoek onduidelijk is wat een bepaal
 * Significant Cybersecurity Risk. A significant cybersecurity risk is “a cybersecurity risk which, based on its technical characteristics, can be assumed to have a high likelihood of an incident that could lead to a severe negative impact, including by causing considerable material or non-material loss or disruption”. (art. 3, onder 36 ontwerp-CRA)
 * Verwerking van gegevens. Verwerking van gegevens is “een bewerking of een geheel van bewerkingen met betrekking tot gegevens of een geheel van gegevens, al dan niet uitgevoerd via geautomatiseerde procedés, zoals het verzamelen, vastleggen, ordenen, structureren, opslaan, bijwerken of wijzigen, opvragen, raadplegen, gebruiken, verstrekken door middel van doorzending, verspreiden of op andere wijze ter beschikking stellen, aligneren of combineren, afschermen, wissen of vernietigen van gegevens”. (AVG aangepast naar gegevens).
 * Vulnerability scan. Een vulnerabilityscan is “een door eigen personeel en/of derden uit te voeren geautomatiseerd onderzoek naar bekende kwetsbaarheden waarvan misbruik is en/of wordt gemaakt (CVE’s) in ICT-producten of ICT-diensten die door een cyberdreiging kunnen worden uitgebuit”. 
+
+# Juridische Aspecten van Informatiebeveiligingsonderzoek
+## Algemeen 
+Al jaren is het in Nederland een verplichting om maatregelen te nemen om de ICT-omgevingen te beschermen tegen inbreuken en andere incidenten. Voor overheidsorganisaties geldt bovendien de verplichting om daarnaast beleid uit te voeren, zoals bijvoorbeeld in de Baseline Informatiebeveiliging Overheid (BIO) staat. Als uitgangspunt maakt het informatiebeveiligingsrecht gebruik van normen. Deze zijn in Nederland en Europa veelal open en gebaseerd op risico. Op basis daarvan moeten beschermingsmaatregelen worden genomen. Dat is de inkleuring van de zorgplichten, die er zijn. 
+
+Maar met het nemen van de maatregelen ben je er niet. Wie verantwoordelijk is voor beveiliging dient ook te verifiëren of daadwerkelijk aan de zorgplicht wordt voldaan. Zijn de vereiste organisatorische en technische beschermingsmaatregelen daadwerkelijk geïmplementeerd, worden ze nageleefd en zijn nog altijd adequaat. De regelgeving vraagt meer en meer dat hierover verantwoording wordt afgelegd. Om hieraan te kunnen voldoen moet er zorgvuldig onderzoek worden uitgevoerd met voldoende bewijs. Daarbij was het vroeger misschien voldoende om te leunen op een certificering. Inmiddels vereist regelgeving het kunnen leveren van het onderliggende bewijs. Dat bewijs maakt duidelijk dat maatregelen zijn genomen en dat er validatie in de vorm van onderzoek heeft plaatsgevonden. 
+
+## Beschikbaarheid, Integriteit en Vertrouwelijkheid 
+Computersystemen kunnen fouten en andere onvolkomenheden in soorten en maten bevatten, waardoor de veiligheid van het systeem, netwerk of onderdeel daarvan, zoals een computerprogramma of protocol, wordt verzwakt. Computer- of informatiebeveiliging (“information security”2) ziet toe op het beveiligen van elektronische gegevensverwerking op basis van risicobeperking en betreft het geheel van maatregelen dat zich traditioneel richt op de volgende onderdelen: 
+* vertrouwelijkheid (uitsluitend geautoriseerde gebruikers hebben toegang tot de systemen en gegevens);
+* integriteit (de verwerkte gegevens zijn volledig en juist); en
+* beschikbaarheid (van systemen, waarbij gebruikers toegang hebben).  
+
+Internationaal wordt gesproken van “CIA”: confidentiality, integrity, availability (ISO/IEC 27000:2009). Bij informatiebeveiliging weegt het recht zwaar. Enerzijds zijn er wettelijke definities en voorschriften, zoals zorgplichten en andere regels in de vorm van meldplichten en bijvoorbeeld verantwoordingsplichten. Anderzijds bevatten contracten hierover specifieke afspraken in het concrete geval. Schending van juridische normen uit wet of overeenkomst kan leiden tot privaat-, bestuurs- en/of strafrechtelijke aansprakelijkheid.  
+
+Voor Nederland is mede het communautaire recht van belang. De Europese Commissie kiest daar waar mogelijk tegenwoordig voor het wetgevingsinstrument verordening. Haar rechtstreekste werking ondervangt het probleem van een EU richtlijn van de omzetting van een richtlijn in het nationale recht van 27 lidstaten, waardoor er beleidsmatige, legislatieve en vervolgens jurisprudentiële verschillen in de interne markt ontstaan. Dit laatste is bijvoorbeeld gebeurd met Richtlijn beveiliging netwerk- en informatiesystemen (EU/2016/11480), of wel “NIS”. 
+
+De Richtlijn NIS omschrijft beveiliging van netwerk- en informatiesystemen uitgebreider dan de gangbare CIA-benadering en spreekt mede van authenticiteit:  
+> “het vermogen van netwerk- en informatiesystemen om met een bepaalde mate van betrouwbaarheid bestand te zijn tegen acties die de beschikbaarheid, authenticiteit, integriteit en vertrouwelijkheid van de opgeslagen, verzonden of verwerkte gegevens of de daaraan gerelateerde diensten die via die netwerk- en informatiesystemen worden aangeboden of toegankelijk zijn, in gevaar brengen” (art. 4, onder 2 NIS). 
+
+De huidige omschrijving van beveiliging van netwerk- en informatiesystemen wijzigt licht in de Richtlijn NIS2 ((EU)2022/2555) die op 16 januari 2023 in werking trad en van toepassing wordt op 18 oktober 2024: 
+> “het vermogen van netwerk- en informatiesystemen om op een bepaald niveau van betrouwbaarheid weerstand te bieden aan elke gebeurtenis die de beschikbaarheid, authenticiteit, integriteit of vertrouwelijkheid van opgeslagen, verzonden of verwerkte gegevens of van de diensten die door of via deze netwerk- en informatiesystemen worden aangeboden, in gevaar kan brengen” (art. 6, onder 2 NIS2). 
+
+De zinsnede “bepaalde mate van betrouwbaarheid bestand te zijn tegen acties” is gewijzigd in “bepaald niveau van betrouwbaarheid weerstand te bieden aan elke gebeurtenis”. 
+
+Daarnaast geldt Verordening (EU) 2019/881 die het EU-Agentschap voor cyberveiligheid (ENISA) versterkt en een raamwerk voor cybersecurity-certificering voor producten en diensten vaststelt. Deze Cybersecuirty Act (CSA) definieert cyberbeveiliging als: 
+
+“de activiteiten die nodig zijn om netwerk- en informatiesystemen, de gebruikers van dergelijke systemen, en andere personen die getroffen worden door cyberdreigingen, te beschermen” (art. 2, onder 1 CSA). 
+
+ 
+
+Dezelfde definitie komt onder meer terug in Richtlijn NIS2 (Art. 4, onder 3). 
+
+Een ander Europese wet - Verordening (EU) 2022/868; Data Governance Act of DGA4 - spreekt van beveiligde verwerkingsomgeving en omschrijft deze omgeving als: 
+
+“de fysieke of virtuele omgeving en organisatorische middelen om te zorgen voor de naleving van het Unierecht, zoals Verordening (EU) 2016/679, met name wat betreft de rechten van datasubjecten, intellectuele-eigendomsrechten, en handels- en statistisch geheim, integriteit en toegankelijkheid, alsook van het toepasselijke nationale recht, en om de entiteit die de beveiligde verwerkingsomgeving biedt in staat te stellen alle gegevensverwerkingsactiviteiten te bepalen en er toezicht op te houden, met inbegrip van het tonen, opslaan, downloaden en exporteren van gegevens en het berekenen van afgeleide gegevens door middel van computeralgoritmen” (art 2, onder 20 DGA). 
+
+ 
+
+Steeds vaker maken criminele en statelijke actoren gebruik van fouten en andere problemen die digitale technologie en gegevensverwerkingsprocessen verzwakken. Dit vormt een aanzienlijk maatschappelijk probleem, en de trend is stijgende. Het is echter belangrijk om te realiseren dat zwakke informatietechniek in producten en diensten, op zichzelf (autonoom) ook tot incidenten kan leiden, zonder dat daarbij sprake is van opzettelijke handelingen van zowel externe als interne partijen binnen de organisatie. Dit kan directe gevolgen hebben voor de bedrijfsvoering, inclusief verstoringen in of uitval van bedrijfsprocessen. 
