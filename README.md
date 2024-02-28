@@ -132,20 +132,13 @@ De Richtlijn NIS omschrijft beveiliging van netwerk- en informatiesystemen uitge
 De huidige omschrijving van beveiliging van netwerk- en informatiesystemen wijzigt licht in de Richtlijn NIS2 ((EU)2022/2555) die op 16 januari 2023 in werking trad en van toepassing wordt op 18 oktober 2024: 
 > “het vermogen van netwerk- en informatiesystemen om op een bepaald niveau van betrouwbaarheid weerstand te bieden aan elke gebeurtenis die de beschikbaarheid, authenticiteit, integriteit of vertrouwelijkheid van opgeslagen, verzonden of verwerkte gegevens of van de diensten die door of via deze netwerk- en informatiesystemen worden aangeboden, in gevaar kan brengen” (art. 6, onder 2 NIS2). 
 
-De zinsnede “bepaalde mate van betrouwbaarheid bestand te zijn tegen acties” is gewijzigd in “bepaald niveau van betrouwbaarheid weerstand te bieden aan elke gebeurtenis”. 
+De zinsnede “bepaalde *mate* van betrouwbaarheid bestand te zijn tegen *acties*” is gewijzigd in “bepaald *niveau* van betrouwbaarheid weerstand te bieden aan *elke gebeurtenis*”. 
 
 Daarnaast geldt Verordening (EU) 2019/881 die het EU-Agentschap voor cyberveiligheid (ENISA) versterkt en een raamwerk voor cybersecurity-certificering voor producten en diensten vaststelt. Deze Cybersecuirty Act (CSA) definieert cyberbeveiliging als: 
-
-“de activiteiten die nodig zijn om netwerk- en informatiesystemen, de gebruikers van dergelijke systemen, en andere personen die getroffen worden door cyberdreigingen, te beschermen” (art. 2, onder 1 CSA). 
-
- 
-
+> “de activiteiten die nodig zijn om netwerk- en informatiesystemen, de gebruikers van dergelijke systemen, en andere personen die getroffen worden door cyberdreigingen, te beschermen” (art. 2, onder 1 CSA). 
 Dezelfde definitie komt onder meer terug in Richtlijn NIS2 (Art. 4, onder 3). 
 
 Een ander Europese wet - Verordening (EU) 2022/868; Data Governance Act of DGA4 - spreekt van beveiligde verwerkingsomgeving en omschrijft deze omgeving als: 
-
-“de fysieke of virtuele omgeving en organisatorische middelen om te zorgen voor de naleving van het Unierecht, zoals Verordening (EU) 2016/679, met name wat betreft de rechten van datasubjecten, intellectuele-eigendomsrechten, en handels- en statistisch geheim, integriteit en toegankelijkheid, alsook van het toepasselijke nationale recht, en om de entiteit die de beveiligde verwerkingsomgeving biedt in staat te stellen alle gegevensverwerkingsactiviteiten te bepalen en er toezicht op te houden, met inbegrip van het tonen, opslaan, downloaden en exporteren van gegevens en het berekenen van afgeleide gegevens door middel van computeralgoritmen” (art 2, onder 20 DGA). 
-
- 
+> “de fysieke of virtuele omgeving en organisatorische middelen om te zorgen voor de naleving van het Unierecht, zoals Verordening (EU) 2016/679, met name wat betreft de rechten van datasubjecten, intellectuele-eigendomsrechten, en handels- en statistisch geheim, integriteit en toegankelijkheid, alsook van het toepasselijke nationale recht, en om de entiteit die de beveiligde verwerkingsomgeving biedt in staat te stellen alle gegevensverwerkingsactiviteiten te bepalen en er toezicht op te houden, met inbegrip van het tonen, opslaan, downloaden en exporteren van gegevens en het berekenen van afgeleide gegevens door middel van computeralgoritmen” (art 2, onder 20 DGA).  
 
 Steeds vaker maken criminele en statelijke actoren gebruik van fouten en andere problemen die digitale technologie en gegevensverwerkingsprocessen verzwakken. Dit vormt een aanzienlijk maatschappelijk probleem, en de trend is stijgende. Het is echter belangrijk om te realiseren dat zwakke informatietechniek in producten en diensten, op zichzelf (autonoom) ook tot incidenten kan leiden, zonder dat daarbij sprake is van opzettelijke handelingen van zowel externe als interne partijen binnen de organisatie. Dit kan directe gevolgen hebben voor de bedrijfsvoering, inclusief verstoringen in of uitval van bedrijfsprocessen. 
