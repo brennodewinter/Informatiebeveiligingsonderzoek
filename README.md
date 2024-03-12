@@ -211,13 +211,13 @@ Op grond van weer een andere Europese wet zijn verkopers sinds 27 april 2022 wet
 
 Kortom diverse regelgeving maken het testen van omgevingen en producten noodzakelijk. We ontkomen er dan ook niet aan deugdelijk onderzoek te plegen.  
 
- ##Juridische punten die helpen bij het onderzoek 
- ###Contractvoorwaarde 
+ ## Juridische punten die helpen bij het onderzoek 
+ ### Contractvoorwaarde 
  In toenemende mate worden digitale veiligheidstesten en andere onderzoeken, inclusief risico-inschattingen, zoals een DPIA, opgenomen in contracten, bijvoorbeeld voorafgaand aan (op)levering van een applicatie of digitale dienst of voorafgaand aan samenwerking, al dan niet in een keten. Dit geldt eveneens voor een pentest. De belangstelling voor deze juridische route, laat zich verklaren door de toenemende aandacht voor informatiebeveiliging en de zoektocht naar meer kwaliteitswaarborgen en zekerheden in het domein, mede in het licht van de controle van een beveiligingsverantwoordelijkheid. 
 
 Opname in een contract strekt tot voordeel van beide partijen: de uitkomsten van digitaal beveiligingsonderzoek geven inzicht in aspecten van de status van digitale veiligheid in het concrete geval, op een bepaald moment en kunnen discussies en conflicten voorkomen. Daarbij kunnen DPIA code review, security assessment, de penetratietest of een informatiebeveiligingsonderzoek met auditwaarde elkaar aanvullen. Voor de goede orde: een dergelijke clausule leidt tot een afzonderlijke overeenkomst tussen opdrachtgever en pentester: de pentestovereenkomst.
 
-###De onderzoeksovereenkomst
+### De onderzoeksovereenkomst
 De hoofdregel staat buiten kijf. In beginsel geen technisch onderzoek op systemen uitvoeren zonder toestemming van een bevoegde vertegenwoordiger van de eigenaar of bestuurder van de organisatie die de te onderzoeken ICT in gebruik heeft. Ontbreekt deze toestemming dan kan alleen al de handeling scannen van netwerk- en informatiesystemen onder het delict computervredebreuk (art. 138ab WvS) vallen (zie #15). De toestemming is nauw verbonden met de scope van het veiligheidsonderzoek, vastgelegd in een overeenkomst. 
 
 Naast toestemming verleent de opdrachtgever als regel diverse vrijwaringen aan de pentester. Bij uitbesteding kwalificeren de afspraken met een externe veiligheidsdienstverlener als een overeenkomst tot opdracht (art. 7:400 BW). Op basis van een in het contract opgenomen vrijwaringsbeding wordt iets of iemand gevrijwaard. In deze context verkrijgt de pentester bescherming tegen een vordering, zoals een claim tot betalen van door de test ontstane schade, die een derde (of de opdrachtgever) bij hem neerlegt. In geval van claims van derden, neemt de opdrachtgever deze over en blijft de onderzoeker buiten schot. 
@@ -230,7 +230,7 @@ Nota bene. Zowel het element toestemming als vrijwaring kan mede afhankelijk zij
 
 Dat betekent dat toestemming gegeven en vrijwaren voor de inzet soms dan wel eerder een iteratief proces is dan een eenmalige, voorafgaande handeling op basis van vaststaande gegevens. Goed beschouwd vraagt dit proces van herhaling om continue aandacht van een beslissingsbevoegde medewerker of manager van de geteste organisatie (opdrachtgever); iemand die deze verantwoordelijk formeel heeft en de toestemming mag geven om een object op een bepaald niveau te scannen. 
 
-###Verwerkersovereenkomst
+### Verwerkersovereenkomst
 Bij uitbesteding van een digitaal veiligheidsonderzoek – dus het geven van een opdracht aan een externe dienstverlener - is veelal onvermijdelijk om met de externe pentester, naast de overeenkomt van opdracht, een verwerkersovereenkomst in de zin van de AVG te sluiten. Dat heeft te maken met een onzeker vooral, namelijk indien de onderzoeker bij de uitvoering van de test onverhoopt toegang tot persoonsgegevens verkrijgt die de opdrachtgever verwerkt.  
 
 Goed om te beseffen, de privacywetgeving hanteert een breed verwerkingsbegrip:  
@@ -241,7 +241,7 @@ Anders gezegd, zo ongeveer alles wat je met een persoonsgegeven kan doen, valt h
 
 Zonder verwerkersovereenkomst ontbreekt een verwerkingsgrond voor de pentester en kan hij in voorkomende gevallen de wet schenden. Op grond van de verwerkersovereenkomst verkrijgt de pentester toestemming om persoonsgegevens te downloaden, aangevuld met de verplichting om de gegevens vervolgens naar keuze van de opdrachtgever onomkeerbaar te vernietigen of desgewenst terug te geven. 
 
-###Auteursrechtelijke invalshoek 
+### Auteursrechtelijke invalshoek 
 Op digitale technologie rusten doorgaans intellectuele eigendomsrechten. Daarbij spelen computerprogramma’s in soorten en maten en het hierop geldende auteursrecht een overheersende rol, in de zin dat gebruikersorganisaties hiermee intensief worden geconfronteerd. Verreweg de meeste software die een organisatie heeft draaien is in licentie gegeven door een ander, zoals de rechthebbende producent. De rechtsverhouding tussen partijen wordt bepaald door de licentieovereenkomst, andere afspraken, zoals vastgelegd in een onderhoudsovereenkomst, en het wettelijke auteursrecht, dat tevens aanvullende en afwijkende regels kent voor software (hoofdstuk VI, artt. 45h-45n Auteurswet).  
 
 Het uitvoeren van een onderzoek op computercode waarop een ander de eigendomsrechten (het auteursrecht) heeft, leidt tot de vraag of dit een wellicht handeling betreft waarvoor toestemming van de auteursrechthebbende vereist is, omdat de intellectuele eigendomswetgeving de maker sterke beschermingsrechten verleent. Die kan als heer en meester exclusief over zijn een eigen werk beschikken. 
@@ -252,7 +252,7 @@ De wet benoemt en regelt het testen van een computerprogramma. De rechtmatige ge
 
 Maar omdat er bij een beveiligingsonderzoek en in het bijzonder het scannen van de software in beginsel geen nieuwe openbaarmaking of verveelvoudiging plaatsvindt, zijn de handelingen (het zonder toestemming van de softwarefabrikant testen van de software uit oogpunt van digitale veiligheid) auteursrechtelijk toegestaan. 
 
-###Wettelijk recht op foutherstel 
+### Wettelijk recht op foutherstel 
 Een onderzoek kan kwetsbaarheden blootleggen, waarbij de bevindingen vervolgens om actie vragen om de veiligheid van digitale technologie en processen te verbeteren. Een van de stappen is het verhelpen van softwarefout. In beginsel is de softwareproducent naar Nederlands contractenrecht verplicht om gebreken in een computerprogramma te verhelpen indien de computercode niet voldoet aan de vastgelegde specificaties, daaronder vallen dus ook veiligheidsgebreken.  
 
 De praktijk toont vaak een ander beeld. Via licentievoorwaarden en algemene voorwaarden proberen softwarefabrikanten hun rol af te zwakken, bijvoorbeeld door de clausule op te nemen dat het geleverde computerprogramma niet foutloos is en niet zonder onderbreking kan werken. En het NCSC hanteert in de Leidraad Coordinated Vulnerability Disclosure (2018) een 60-dagen periode voor het verhelpen van de kwetsbaarheid door de fabrikant. 
@@ -267,7 +267,7 @@ Echter deze handeling is volgens de wet voor een rechtmatige gebruiker uitsluite
 
 Het gaat om - ook in het licht van beveiligingsonderzoek – een belangrijk arrest. Iedere rechtmatige gebruiker van een computerprogramma heeft op grond van de wet volgens de Europese rechter tevens het recht de software te ‘*decompileren teneinde fouten te verbeteren die de werking ervan beïnvloeden, ook wanneer de verbetering erin bestaat een functie te deactiveren die de goede werking verstoort van de toepassing waarvan het programma deel uitmaakt*’. De enige beperking die de rechter aan deze regel stelt, is dat de licentienemer een dergelijke decompilatie slechts mag ‘*verrichten voor zover dit noodzakelijk is voor die verbetering en, in voorkomend geval, met inachtneming van de voorwaarden die bij overeenkomst met de auteursrechthebbende van dit programma zijn vastgelegd.*’ 
 
-###Strafrecht: computervredebreuk 
+### Strafrecht: computervredebreuk 
 Een offensieve veiligheidstest die wordt uitgevoerd zonder toestemming van de organisatie die voorwerp van onderzoek is, kan leiden tot een digitale inbraak (‘*hack*’), die de penter pleegt. Laten we beginnen de vraag naar de rechtmatigheid van het bezit van digitale tools in een computersysteem in te breken. Ons Wetboek van Strafrecht stelt strafbaar het vervaardigen, verkopen, verwerven, invoeren, verspreiden of anderszins ter beschikking stellen of voorhanden hebben van een ‘een technisch hulpmiddel dat hoofdzakelijk geschikt is gemaakt of ontworpen is tot het plegen van computervredebreuk (art. 139d lid 2 WvS).   
 
 Een tool die de pentester gebruikt bij zijn onderzoek, kan in beginsel onder een dergelijke ‘*technisch hulpmiddel*’ vallen, maar dan moet er aan twee criteria zijn voldaan. De tool 
@@ -301,7 +301,7 @@ Een tweede opmerking ziet op een aanpalende geheimhoudingskwestie, namelijk de v
 
 Tot slot, echter zeker niet als laatste: het CVD-beleid van een organisatie vrijwaart een ethisch hacker in beginsel niet van civielrechtelijke aansprakelijkheid. 
 
-###Juridische ontwikkelingen kwetsbaarheden 
+### Juridische ontwikkelingen kwetsbaarheden 
 Er zijn tientallen technische definities van het begrip '*kwetsbaarheid*' in relatie tot computersystemen, ICT en geautomatiseerde gegevensverwerking in omloop. Deze definities variëren in meer of mindere mate, zelfs binnen één organisatie, zoals het internationaal gezaghebbende National Institute of Standards and Technology (NIST), dat deel uitmaakt van het Amerikaanse ministerie van Handel. In de meeste definities wordt echter verwezen naar een 'flaw' of 'weakness' (fout, zwakte) in het ontwerp, de implementatie, de werking, het beheer of de '*controls*' van systemen of '*assets*'. 
 
 Naast de basisdefinitie blijkt in de praktijk dat er onderscheid wordt gemaakt tussen een '*gewone*' kwetsbaarheid en een kritieke variant. Bovendien worden kwetsbaarheden vaak ingedeeld in 'bekende' en 'zero-day' kwetsbaarheden. De laatstgenoemde categorie kwetsbaarheden wordt ontdekt door derden, waaronder ethische hackers, criminelen of statelijke actoren. De softwareproducent heeft hier geen weet van en krijgt geen tijd ('zero time') om de zwakheid te herstellen voordat er misbruik van wordt gemaakt. 
@@ -340,7 +340,7 @@ Om softwareproducenten te stimuleren meer aan digitale veiligheid te doen, wilde
 
 De verwachting is dat de Europese Commissie met voorstellen zal komen om de verantwoordelijkheid van fabrikanten voor veilige software wettelijk vast te leggen en hun aansprakelijkheid voor de gevolgen van kwetsbaarheden te definiëren. Ondertussen wordt internationaal sinds 1999 gewerkt met de Common Vulnerabilities and Exposures (CVE)-lijst, waarmee kwetsbaarheden een uniek nummer krijgen om het volgen, uitwisselen van informatie en beoordelen van beveiligingsproducten te vergemakkelijken en te verbeteren. 
 
-###Afsluitende opmerkingen 
+### Afsluitende opmerkingen 
 Digitale kwaliteitstekortkomingen, waaronder kwetsbaarheden (gedefinieerd als 'zwakke plekken, vatbaarheden of gebreken in ICT-producten of -diensten die kunnen worden misbruikt door cyberdreigingen'), maken individuele gebruikers, organisaties en de samenleving als geheel kwetsbaarder dan noodzakelijk. Dit vergemakkelijkt vaak de uitvoering van digitale criminaliteit op grote schaal. 
 
 Volgens geldende juridische opvattingen zijn organisaties in de eerste plaats zelf verantwoordelijk voor hun eigen digitale veiligheid. Aan de andere kant zijn softwarefabrikanten primair verantwoordelijk voor de digitale veiligheid van de producten en diensten die ze aanbieden. Iedere entiteit, ongeacht sector en omvang, heeft dus de wettelijke verplichting om digitale technologie en processen te beschermen door passende maatregelen te nemen. 
