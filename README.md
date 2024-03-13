@@ -21,8 +21,8 @@ Het informatiebeveiligingsonderzoek met auditwaarde draait om een aantal zekerhe
 2. Duidelijkheid over context. Op basis van de beschikbare informatie is precies duidelijk welke context-informatie wel of niet beschikbaar is. 
 3. Duidelijkheid in scope. Het is duidelijk wat er precies is onderzocht.
 4. Duidelijkheid in onderzoek. Het is duidelijk welke onderzoeken er precies zijn uitgevoerd en dat deze passend bij het product zijn.
-6. Duidelijkheid in bewijsvoering. Het onderzoeksbewijs is beschikbaar om reproduceerbaarheid te bieden aan anderen (en daarmee auditwaarde) en bewijs te bieden dat het onderzoek is uitgevoerd.
-7. Duidelijkheid in bevindingen. Bij bevindingen wordt uniform en zo objectief mogelijk gecommuniceerd over gevonden problemen, de impact en mogelijke oplossingsrichtingen.
+5. Duidelijkheid in bewijsvoering. Het onderzoeksbewijs is beschikbaar om reproduceerbaarheid te bieden aan anderen (en daarmee auditwaarde) en bewijs te bieden dat het onderzoek is uitgevoerd.
+6. Duidelijkheid in bevindingen. Bij bevindingen wordt uniform en zo objectief mogelijk gecommuniceerd over gevonden problemen, de impact en mogelijke oplossingsrichtingen.
 
 Dit document is het product van het bundelen van veel kennis en lering trekken uit incidenten. Natuurlijk staat informatiebeveiliging niet stil en zal het document regelmatig aan de nieuwe praktijk moeten worden bijgesteld. Ondertussen heeft u eindelijk een stuk houvast in handen. Succes!
 
@@ -120,10 +120,31 @@ Omdat het vaak bij informatiebeveiligingsonderzoek onduidelijk is wat een bepaal
 * Vulnerability scan. Een vulnerabilityscan is “een door eigen personeel en/of derden uit te voeren geautomatiseerd onderzoek naar bekende kwetsbaarheden waarvan misbruik is en/of wordt gemaakt (CVE’s) in ICT-producten of ICT-diensten die door een cyberdreiging kunnen worden uitgebuit”. 
 
 # Informatiebeveiligingsonderzoek met auditwaarde
-Om te kunnen 
+Om te kunnen spreken van een Informatiebeveiligingsonderzoek met auditwaarde moet aan een aantal zaken worden voldaan:
 
+## Duidelijkheid in deskundigheid. Op basis van de certificering is duidelijk dat het onderzoek is uitgevoerd onder verantwoordelijkheid van iemand die afdoende is geschoold.
+Om het onderzoek deugdelijk te kunnen uitvoeren wordt het onderzoek uitgevoerd door iemand, die over een minimaal niveau van kennis beschikt met betrekking tot het doen van informatiebeveiligingsonderzoek met auditwaarde. Deze persoon is de rapporteur voor het onderzoek en staat in voor de correctheid van het onderzoek. Deze gecertificeerde persoon voert het onderzoek uit of laat het onderzoek (deels)onder zijn of haar auspiciën uitvoeren. Van het gecertificeerd zijn, levert de rapporteur bewijs aan in de vorm van een validatielink of een kopie van een diploma. Er vindt ondertekening plaats dat de verstrekte informatie in de rapportage correct is.   
 
-## 
+### EIS: 1.1 Aanwijzing rapporteur, opsteller of hoofdonderzoeker.
+> De rapportage vermeldt de naam van de rapporteur.
+
+### EIS 1.2 Benoeming van de certificering
+> De rapportage benoemt de certificering(en), waarover de rapporteur beschikt. Geldige certificeringen zijn:
+> * OffSec Certified Professional (OSCP)
+> * OffSec Experienced Pentester (OSEP)
+> * OffSec Offensive Security Certified Expert (OSCE of OSCE³)
+> * OffSec Web Expert (OSWE)
+> * Web application Penetration Tester eXtreme (eWPTX) 
+
+### Voorbeeld rapportage
+> Deze rapportage is opgesteld door [NAAM VAN DE HOOFDONDERZOEKER], deze is in het bezit van [NAAM CERTIFICERING] ([LINK NAAR DE VALIDATIESITE VOOR CERTIFICERING VAN DE PERSOON]). Deze rapportage is accuraat en waarheid opgesteld.
+> __________________________________ (handtekening)
+
+## Duidelijkheid over context. Op basis van de beschikbare informatie is precies duidelijk welke context-informatie wel of niet beschikbaar is. 
+## Duidelijkheid in scope. Het is duidelijk wat er precies is onderzocht.
+## Duidelijkheid in onderzoek. Het is duidelijk welke onderzoeken er precies zijn uitgevoerd en dat deze passend bij het product zijn.
+## Duidelijkheid in bewijsvoering. Het onderzoeksbewijs is beschikbaar om reproduceerbaarheid te bieden aan anderen (en daarmee auditwaarde) en bewijs te bieden dat het onderzoek is uitgevoerd.
+## Duidelijkheid in bevindingen. Bij bevindingen wordt uniform en zo objectief mogelijk gecommuniceerd over gevonden problemen, de impact en mogelijke oplossingsrichtingen.
 
 
 # Juridische Aspecten van Informatiebeveiligingsonderzoek
