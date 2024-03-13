@@ -142,6 +142,8 @@ Wat levert het op: Dit maakt het mogelijk vast te stellen wie het onderzoek heef
 
 Wat levert het op: Deze certificeringen bieden een niveau van zekerheid dat de onderzoeker beschikt over een minimaal niveau aan opleiding en deze beschikt over voldoende kennis om een examen te kunnen doorstaan. Dat maakt de onderzoeker een professionele partner voor het onderzoek. 
 
+De geselecteerde certificeringen zijn gebaseerd op het kwalificatieschema van het [CCV Keurmerk Pentesten](https://hetccv.nl/app/uploads/2023/09/20230921-Kwalificaties-pentester.pdf).
+
 ### EIS 1.3 Bewijs certificering
 **EIS:**
 > De rapportage levert bewijs van de certificering in de vorm van een link naar een online validatieplatform om de authenticiteit van de geclaimde certificering te valideren of een kopie van het diploma, waardoor andere validatie mogelijk is.
