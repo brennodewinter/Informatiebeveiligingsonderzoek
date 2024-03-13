@@ -126,19 +126,38 @@ Om te kunnen spreken van een Informatiebeveiligingsonderzoek met auditwaarde moe
 Om het onderzoek deugdelijk te kunnen uitvoeren wordt het onderzoek uitgevoerd door iemand, die over een minimaal niveau van kennis beschikt met betrekking tot het doen van informatiebeveiligingsonderzoek met auditwaarde. Deze persoon is de rapporteur voor het onderzoek en staat in voor de correctheid van het onderzoek. Deze gecertificeerde persoon voert het onderzoek uit of laat het onderzoek (deels)onder zijn of haar auspiciën uitvoeren. Van het gecertificeerd zijn, levert de rapporteur bewijs aan in de vorm van een validatielink of een kopie van een diploma. Er vindt ondertekening plaats dat de verstrekte informatie in de rapportage correct is.   
 
 ### EIS: 1.1 Aanwijzing rapporteur, opsteller of hoofdonderzoeker.
+**EIS:**
 > De rapportage vermeldt de naam van de rapporteur.
 
-### EIS 1.2 Benoeming van de certificering
+Wat levert het op: Dit maakt het mogelijk vast te stellen wie het onderzoek heeft uitgevoerd en wie professionele verantwoordelijkheid draagt. Het maakt het mogelijk te valideren dat deze persoon beschikt over voldoende certificering om professioneel te kunnen optreden.
+
+### EIS 1.2 Benoeming van de certificering, waarover de rapporteur beschikt
+**EIS:**
 > De rapportage benoemt de certificering(en), waarover de rapporteur beschikt. Geldige certificeringen zijn:
 > * OffSec Certified Professional (OSCP)
 > * OffSec Experienced Pentester (OSEP)
 > * OffSec Offensive Security Certified Expert (OSCE of OSCE³)
 > * OffSec Web Expert (OSWE)
-> * Web application Penetration Tester eXtreme (eWPTX) 
+> * Web application Penetration Tester eXtreme (eWPTX)
 
-### Voorbeeld rapportage
+Wat levert het op: Deze certificeringen bieden een niveau van zekerheid dat de onderzoeker beschikt over een minimaal niveau aan opleiding en deze beschikt over voldoende kennis om een examen te kunnen doorstaan. Dat maakt de onderzoeker een professionele partner voor het onderzoek. 
+
+### EIS 1.3 Bewijs certificering
+**EIS:**
+> De rapportage levert bewijs van de certificering in de vorm van een link naar een online validatieplatform om de authenticiteit van de geclaimde certificering te valideren of een kopie van het diploma, waardoor andere validatie mogelijk is.
+
+Wat levert het op: Dit maakt het mogelijk om vast te stellen dat de rapporteur van de rapportage inderdaad beschikt over de geclaimde certificering, waaruit professionaliteit blijkt.
+
+### EIS 1.4 Handtekening voor waarheidsgetrouwe rapportage
+**EIS:**
+> De rapportage wordt voorzien van een tekst, waaruit blijkt dat de rapportage accuraat en naar waarheid is opgesteld en voorzien van een handtekening van de rapporteur.
+
+### Voorbeeld passage om in rapportage op te nemen
 > Deze rapportage is opgesteld door [NAAM VAN DE HOOFDONDERZOEKER], deze is in het bezit van [NAAM CERTIFICERING] ([LINK NAAR DE VALIDATIESITE VOOR CERTIFICERING VAN DE PERSOON]). Deze rapportage is accuraat en waarheid opgesteld.
+> 
 > __________________________________ (handtekening)
+
+Wat levert het op: 
 
 ## Duidelijkheid over context. Op basis van de beschikbare informatie is precies duidelijk welke context-informatie wel of niet beschikbaar is. 
 ## Duidelijkheid in scope. Het is duidelijk wat er precies is onderzocht.
