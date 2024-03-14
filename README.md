@@ -17,12 +17,13 @@ Het levert niet alleen informatie, te zetten stappen, een handleiding om informa
 Het langslopen van de noodzakelijke eisen kan alleen goed werken als vraag en antwoord goed op elkaar zijn afgestemd. Van vraagstelling tot toetsing van het eindrapport levert de methodiek de nodige informatie en modellen. Waar gaten vielen, zoals bij veel juridische aspecten, hebben we deze zo goed mogelijk opgevuld. Op die manier geeft deze methodiek houvast voor een eerlijk, objectief beeld bij uitgevoerd onderzoek, waarbij de rapportage inkleuring geven bij de eisen die de Europese wetgever meer en meer stelt aan informatiebeveiliging. 
 
 Het informatiebeveiligingsonderzoek met auditwaarde draait om een aantal zekerheden, die aan het onderzoek is te ontleden:
-1. Duidelijkheid in deskundigheid. Op basis van de certificering is duidelijk dat het onderzoek is uitgevoerd onder verantwoordelijkheid van iemand die afdoende is geschoold.  
-2. Duidelijkheid over context. Op basis van de beschikbare informatie is precies duidelijk welke context-informatie wel of niet beschikbaar is. 
-3. Duidelijkheid in scope. Het is duidelijk wat er precies is onderzocht.
-4. Duidelijkheid in onderzoek. Het is duidelijk welke onderzoeken er precies zijn uitgevoerd en dat deze passend bij het product zijn.
-5. Duidelijkheid in bewijsvoering. Het onderzoeksbewijs is beschikbaar om reproduceerbaarheid te bieden aan anderen (en daarmee auditwaarde) en bewijs te bieden dat het onderzoek is uitgevoerd.
-6. Duidelijkheid in bevindingen. Bij bevindingen wordt uniform en zo objectief mogelijk gecommuniceerd over gevonden problemen, de impact en mogelijke oplossingsrichtingen.
+1. Duidelijkheid in deskundigheid. Op basis van de certificering is duidelijk dat het onderzoek is uitgevoerd onder verantwoordelijkheid van iemand die afdoende is geschoold.
+2. Duidelijkheid in proces. Op basis van het te doorlopen proces is duidelijk welke taken er worden uitgevoerd.
+3. Duidelijkheid over context. Op basis van de beschikbare informatie is precies duidelijk welke context-informatie wel of niet beschikbaar is. 
+4. Duidelijkheid in scope. Het is duidelijk wat er precies is onderzocht.
+5. Duidelijkheid in onderzoek. Het is duidelijk welke onderzoeken er precies zijn uitgevoerd en dat deze passend bij het product zijn.
+6. Duidelijkheid in bewijsvoering. Het onderzoeksbewijs is beschikbaar om reproduceerbaarheid te bieden aan anderen (en daarmee auditwaarde) en bewijs te bieden dat het onderzoek is uitgevoerd.
+7. Duidelijkheid in bevindingen. Bij bevindingen wordt uniform en zo objectief mogelijk gecommuniceerd over gevonden problemen, de impact en mogelijke oplossingsrichtingen.
 
 Dit document is het product van het bundelen van veel kennis en lering trekken uit incidenten. Natuurlijk staat informatiebeveiliging niet stil en zal het document regelmatig aan de nieuwe praktijk moeten worden bijgesteld. Ondertussen heeft u eindelijk een stuk houvast in handen. Succes!
 
@@ -170,10 +171,16 @@ Wat levert het op: Dit maakt duidelijk voor welke versie van het document wordt 
 
 Wat levert het op: Een handtekening onder een rapportage dient als een formeel bewijs van goedkeuring, verantwoordelijkheid en authenticiteit. Het toont aan dat de ondertekenaar instemt met de inhoud van het document, bevestigt dat de informatie naar beste weten correct en compleet is, en draagt juridische en professionele verantwoordelijkheid voor wat erin staat. Dit versterkt het vertrouwen en de geloofwaardigheid van het rapport, zowel intern binnen een organisatie als extern naar stakeholders, klanten, of toezichthoudende instanties. 
 
+## Duidelijkheid in proces. 
+
 ## Duidelijkheid over context. Op basis van de beschikbare informatie is precies duidelijk welke context-informatie wel of niet beschikbaar is. 
+
 ## Duidelijkheid in scope. Het is duidelijk wat er precies is onderzocht.
+
 ## Duidelijkheid in onderzoek. Het is duidelijk welke onderzoeken er precies zijn uitgevoerd en dat deze passend bij het product zijn.
+
 ## Duidelijkheid in bewijsvoering. Het onderzoeksbewijs is beschikbaar om reproduceerbaarheid te bieden aan anderen (en daarmee auditwaarde) en bewijs te bieden dat het onderzoek is uitgevoerd.
+
 ## Duidelijkheid in bevindingen. Bij bevindingen wordt uniform en zo objectief mogelijk gecommuniceerd over gevonden problemen, de impact en mogelijke oplossingsrichtingen.
 
 
