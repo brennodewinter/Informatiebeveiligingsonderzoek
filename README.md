@@ -150,16 +150,25 @@ De geselecteerde certificeringen zijn gebaseerd op het kwalificatieschema van he
 
 Wat levert het op: Dit maakt het mogelijk om vast te stellen dat de rapporteur van de rapportage inderdaad beschikt over de geclaimde certificering, waaruit professionaliteit blijkt.
 
-### EIS 1.4 Handtekening voor waarheidsgetrouwe rapportage
+### EIS 1.4 Benoemen van de versie van de rapportage
 **EIS:**
-> De rapportage wordt voorzien van een tekst, waaruit blijkt dat de rapportage accuraat en naar waarheid is opgesteld en voorzien van een handtekening van de rapporteur.
+Er wordt in de passage over de deskundigheid melding gemaakt van het versienummer van het document.
 
-### Voorbeeld passage om in rapportage op te nemen
-> Deze rapportage is opgesteld door [NAAM VAN DE HOOFDONDERZOEKER], deze is in het bezit van [NAAM CERTIFICERING] ([LINK NAAR DE VALIDATIESITE VOOR CERTIFICERING VAN DE PERSOON]). Deze rapportage is accuraat en waarheid opgesteld.
+Wat levert het op: Dit maakt duidelijk voor welke versie van het document wordt getekend.
+
+### EIS 1.5 Handtekening voor waarheidsgetrouwe rapportage
+**EIS:**
+> De rapportage wordt voorzien van een tekst, waaruit blijkt dat de rapportage:
+> 1. accuraat en naar waarheid is opgesteld;
+> 2. er een review op deze versie van het document heeft plaatsgevonden door andere een niet bij het onderzoek betrokken persoon.
+> Deze tekst voorzien van een handtekening van de rapporteur. Deze handtekening kan een fysiek gezette handtekening zijn of een digitale handtekening.
+
+**Voorbeeld passage om in rapportage op te nemen**
+> Deze rapportage (versie XX.YY) is opgesteld door [NAAM VAN DE HOOFDONDERZOEKER], deze is in het bezit van [NAAM CERTIFICERING] ([LINK NAAR DE VALIDATIESITE VOOR CERTIFICERING VAN DE PERSOON]). Deze rapportage is accuraat en naar waarheid opgesteld. Op deze versie van het document heeft een review plaatsgevonden door iemand, die zelf niet betrokken is bij het uitvoeren van dit informatiebeveiligingsonderzoek.
 > 
 > __________________________________ (handtekening)
 
-Wat levert het op: 
+Wat levert het op: Een handtekening onder een rapportage dient als een formeel bewijs van goedkeuring, verantwoordelijkheid en authenticiteit. Het toont aan dat de ondertekenaar instemt met de inhoud van het document, bevestigt dat de informatie naar beste weten correct en compleet is, en draagt juridische en professionele verantwoordelijkheid voor wat erin staat. Dit versterkt het vertrouwen en de geloofwaardigheid van het rapport, zowel intern binnen een organisatie als extern naar stakeholders, klanten, of toezichthoudende instanties. 
 
 ## Duidelijkheid over context. Op basis van de beschikbare informatie is precies duidelijk welke context-informatie wel of niet beschikbaar is. 
 ## Duidelijkheid in scope. Het is duidelijk wat er precies is onderzocht.
