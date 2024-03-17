@@ -32,18 +32,25 @@ Het ontvangen of vaststellen van een dataclassificatie tijdens een intake van ee
 #### Omschrijving van de te onderzoeken omgeving
 Het is van groot belang dat een beveiligingsonderzoeker op functioneel niveau begrijpt wat het doel is van de te onderzoeken omgeving. Een omschrijving van de functionaliteiten binnen een omgeving en een proces diagram zijn daarom van groot belang.
 
+#### Omgevingsspecifiek beveiligingsonderzoek
+In overleg met de opdrachtgever dient te worden bepaald op welke omgeving het beveiligingsonderzoek wordt uitgevoerd, zoals bijvoorbeeld een acceptatie of productie omgeving.
+
+
 ---------------
 
 #### Braindump
 
 1. Uit hoeveel servers is de omgeving opgebouwd?
-2. Uit welke type besturingssystemen bestaat de te onderzoeken omgeving?
-3. Hoe wordt data opgeslagen? Database / file system etc.?
-4. Netwerk tekening / diagram
-5. Externe afhankelijkheden (externe services zoals bijv. API's)
-6. Gebruikte technologieen netwerk
-7. Gebruikte technologieen infrastructuur
-8. Gebruikte technologieen applicaties
+2. Wat zijn de IP adressen van deze server(s)
+3. Wordt er gebruik gemaakt van zowel IPv4 als IPv6?
+4. Uit welke type besturingssystemen bestaat de te onderzoeken omgeving?
+5. Hoe wordt data opgeslagen? Database / file system etc.?
+6. Indien er gebruik wordt gemaakt van data encryptie, hoe is dit opgezet en geconfigureerd? Is het symetrisch of a-symetrich? Indien van toepassing, waar wordt de sleutel bewaard? 
+7. Netwerk tekening / diagram
+8. Externe afhankelijkheden (externe services zoals bijv. API's)
+9. Gebruikte technologieen netwerk
+10. Gebruikte technologieen infrastructuur
+11. Gebruikte technologieen applicaties
 
 #### Netwerk technologoieen
 
@@ -62,7 +69,7 @@ Het is van groot belang dat een beveiligingsonderzoeker op functioneel niveau be
 
 ##### Applicatieve technologieeen e.a.
 
-1. Welke taal of talen worden gebruikt?
+1. Van welke taal of talen worden gebruikt?
 2. Wordt er gebruik gemaakt van een framework? Zo ja, welke?
 3. Hoe wordt gebruikersbeheer geregeld?
 4. Hoeveel gebruikers maken gebruik van de applicatie?
