@@ -10,12 +10,64 @@ Zodra een NDA is opgesteld en ondertekend is door alle relevante partijen, kunne
 Dit omvat de specifieke doelstellingen van het beveiligingsonderzoek, zoals het testen van specifieke applicaties, netwerken of systemen. Identificeer de systemen, applicaties en technologieën welke dienen te worden getest en
 omvat zowel interne als externe systemen.
 
-
 #### Benaderingen beveilingsonderzoek
-De benaderingen beschrijven het niveau van kennis en informatie welke de onderzoeker heeft over het systeem, de applicatie of de omgeving die wordt onderzocht.
+De benaderingen beschrijven het niveau van voorkennis en informatie welke de onderzoeker heeft over het te onderzoken systeem, applicatie of omgeving. 
 
 - ##### Whitebox
   Bij deze benadering heeft de onderzoeker volledige kennis van het interne systeem of de applicatie welke onderzocht wordt. Dit kan onder meer toegang omvatten tot broncode, architectuurdocumentatie en inloggegevens voor interne systemen. Met deze volledige transparantie kan de onderzoeker diepgaande analyses uitvoeren en specifieke kwetsbaarheden identificeren.
 
 - ##### Graybox
-  
+  Bij deze benadering heeft de onderzoeker gedeeltelijke kennis van een systeem of een applicatie, maar niet alle details zijn beschikbaar. Er is beperkte informatie beschikbaar over de interne werking van een systeem of applicatie.
+
+- ##### Blackbox
+  Bij deze benadering is geen voorkennis van een systeem of applicatie en het onderzoek vindt plaats zonder toegang tot interne details of broncode.
+
+Op basis van de bevindingen die voortkomen uit een beveiligingsonderzoek met een whitebox benadering, kan worden vastgesteld welke van deze bevindingen ook zouden worden geconstateerd wanneer er een andere benaderingen zou zijn toegepast.
+
+#### Data classificatie
+Dataclassificatie is het proces waarbij gegevens worden geëvalueerd en gecategoriseerd op basis van hun gevoeligheid, waarde en het risico dat ermee gepaard gaat bij ongeoorloofde toegang, openbaarmaking of verlies.
+Het ontvangen of vaststellen van een dataclassificatie tijdens een intake van een beveiligingsonderzoek is noodzakelijk omdat dit een weegfactor is bij het bepalen van de ernst van een kwetsbaarheid.
+
+#### Omschrijving van de te onderzoeken omgeving
+Het is van groot belang dat een beveiligingsonderzoeker op functioneel niveau begrijpt wat het doel is van de te onderzoeken omgeving. Een omschrijving van de functionaliteiten binnen een omgeving en een proces diagram zijn daarom van groot belang.
+
+---------------
+
+#### Braindump
+
+1. Uit hoeveel servers is de omgeving opgebouwd?
+2. Uit welke type besturingssystemen bestaat de te onderzoeken omgeving?
+3. Hoe wordt data opgeslagen? Database / file system etc.?
+4. Netwerk tekening / diagram
+5. Externe afhankelijkheden (externe services zoals bijv. API's)
+6. Gebruikte technologieen netwerk
+7. Gebruikte technologieen infrastructuur
+8. Gebruikte technologieen applicaties
+
+#### Netwerk technologoieen
+
+1. Aanwezigheid WAF
+2. Aanwezigheid content inspectie?
+3. ...
+
+##### Infrastructuur technologieen
+
+1. OS
+2. Database
+3. Koppelingen zoals MQ
+4. Zijn er taken die periodiek worden uitgevoerd op specifieke tijdstippen?
+5. Versleuteling van data (at rest? in transit? layer 6?)
+6. Indicatie hoeveelheid records opgeslagen zijn (indien van toepassing bij verwerking persoonsgegevens)
+
+##### Applicatieve technologieeen e.a.
+
+1. Welke taal of talen worden gebruikt?
+2. Wordt er gebruik gemaakt van een framework? Zo ja, welke?
+3. Hoe wordt gebruikersbeheer geregeld?
+4. Hoeveel gebruikers maken gebruik van de applicatie?
+5. Hoeveel rollen zijn er binnen een applicatie? Overzicht en omschrijving rollen is noodzakelijk.
+6. Wat zijn de authenticatie methodes?
+7. Documentatie (link)
+8. Source code (link)
+9. Changelog (link)
+10. Happy flow diagram (link)
