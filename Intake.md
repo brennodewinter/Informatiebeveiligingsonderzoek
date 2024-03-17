@@ -1,4 +1,5 @@
 ## Het intake proces
+Het intakeproces voor een beveiligingsonderzoek is een fase waarin de vereisten, doelstellingen en verwachtingen van een opdrachtgever worden vastgesteld en waarin de scope en aanpak van het onderzoek worden bepaald. 
 
 #### Non-disclosure agreement (NDA)
 Voorafgaan aan een een intake voor een informatiebeveiligingsonderzoek, is het noodzakelijk een non-disclosure agreement (NDA) te hebben tussen de partijen welke meewerken aan dit onderzoek.
