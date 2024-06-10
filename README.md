@@ -18,12 +18,13 @@ Het langslopen van de noodzakelijke eisen kan alleen goed werken als vraag en an
 
 Het informatiebeveiligingsonderzoek met auditwaarde draait om een aantal zekerheden, die aan het onderzoek is te ontleden:
 1. Duidelijkheid in deskundigheid. Op basis van de certificering is duidelijk dat het onderzoek is uitgevoerd onder verantwoordelijkheid van iemand die afdoende is geschoold.
-2. Duidelijkheid in proces. Op basis van het te doorlopen proces is duidelijk welke taken er worden uitgevoerd.
-3. Duidelijkheid over context. Op basis van de beschikbare informatie is precies duidelijk welke context-informatie wel of niet beschikbaar is. 
-4. Duidelijkheid in scope. Het is duidelijk wat er precies is onderzocht.
-5. Duidelijkheid in onderzoek. Het is duidelijk welke onderzoeken er precies zijn uitgevoerd en dat deze passend bij het product zijn.
-6. Duidelijkheid in bewijsvoering. Het onderzoeksbewijs is beschikbaar om reproduceerbaarheid te bieden aan anderen (en daarmee auditwaarde) en bewijs te bieden dat het onderzoek is uitgevoerd.
-7. Duidelijkheid in bevindingen. Bij bevindingen wordt uniform en zo objectief mogelijk gecommuniceerd over gevonden problemen, de impact en mogelijke oplossingsrichtingen.
+2. Duidelijkheid in compleetheid. Op basis van de standaarden, die volledig worden uitgelopen, is er zekerheid dat de testen die minimaal moeten worden uitgevoerd zijn uitgevoerd. Als deze niet relevant zijn of niet kunnen dan is dat gedocumenteerd. U weet dat er een compleet onderzoek is uitgevoerd.
+3. Duidelijkheid in proces. Er is een duidelijk en helder omschreven proces dat volledig is uitgelopen. 
+4. Duidelijkheid over context. Op basis van de beschikbare informatie is precies duidelijk welke context-informatie wel of niet beschikbaar is. 
+5. Duidelijkheid in scope. Het is duidelijk wat er precies is onderzocht.
+6. Duidelijkheid in onderzoek. Het is duidelijk welke onderzoeken er precies zijn uitgevoerd en dat deze passend bij het product zijn.
+7. Duidelijkheid in bewijsvoering. Het onderzoeksbewijs is beschikbaar om reproduceerbaarheid te bieden aan anderen (en daarmee auditwaarde aan het onderzoek toe te voegen) en bewijs te bieden dat het onderzoek is uitgevoerd.
+8. Duidelijkheid in bevindingen. Bij bevindingen wordt uniform en zo objectief mogelijk gecommuniceerd over gevonden problemen, de impact en mogelijke oplossingsrichtingen.
 
 Dit document is het product van het bundelen van veel kennis en lering trekken uit incidenten. Natuurlijk staat informatiebeveiliging niet stil en zal het document regelmatig aan de nieuwe praktijk moeten worden bijgesteld. Ondertussen heeft u eindelijk een stuk houvast in handen. Succes!
 
