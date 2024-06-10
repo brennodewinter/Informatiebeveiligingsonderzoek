@@ -29,7 +29,15 @@ Het informatiebeveiligingsonderzoek met auditwaarde draait om een aantal zekerhe
 Dit document is het product van het bundelen van veel kennis en lering trekken uit incidenten. Natuurlijk staat informatiebeveiliging niet stil en zal het document regelmatig aan de nieuwe praktijk moeten worden bijgesteld. Ondertussen heeft u eindelijk een stuk houvast in handen. Succes!
 
 ## Inrichting van het document
-Dit document is opgebouwd in diverse onderdelen, waardoor alle elementen van technisch informatiebeveiligingsonderzoek goed aan bod komen. Het valt uiteen in een aantal secties. De eerste sectie ‘Over informatiebeveiligingsonderzoek’ beschrijft de juridische aspecten, de soorten onderzoek en andere relevante onderdelen van informatiebeveiligingsonderzoek. In de tweede sectie ‘Informatiebeveiligingsonderzoek uitvoeren’ volgt het (laten) uitvoeren van een dergelijk onderzoek. In de derde sectie ‘Informatiebeveiligingsonderzoek toetsen’ treft u de stappen voor het toetsen van een ontvangen rapportage aan. Tot slot zijn er in de laatste sectie verschillende onderliggende stukken opgenomen in de appendices.
+Dit document is opgebouwd in diverse onderdelen, waardoor alle elementen van technisch informatiebeveiligingsonderzoek goed aan bod komen. Het valt uiteen in een aantal secties. 
+
+De eerste sectie ‘Over informatiebeveiligingsonderzoek’ beschrijft de juridische aspecten, de soorten onderzoek en andere relevante onderdelen van informatiebeveiligingsonderzoek. 
+
+In de tweede sectie ‘Informatiebeveiligingsonderzoek uitvoeren’ volgt het (laten) uitvoeren van een dergelijk onderzoek. In de derde sectie ‘Informatiebeveiligingsonderzoek toetsen’ treft u de stappen voor het toetsen van een ontvangen rapportage aan. 
+
+In de derde sectie 'Juridische aspecten' komen de juridische aspecten aan bod. Dit gaat enerzijds over verplichtingen die er zijn om tot deugdelijk onderzoek te komen alsmede de juridische aspecten bij het uitvoeren van het informatiebeveiligingsonderzoek.
+
+Tot slot zijn er in de laatste sectie verschillende onderliggende stukken opgenomen in de appendices.
 
 ## Versie historie
 * 0.01 - Juli 2020 - Eerste draft met inkoopeisen - Brenno de Winter
@@ -43,4 +51,7 @@ Dit document is opgebouwd in diverse onderdelen, waardoor alle elementen van tec
 * 0.52 - December 2023 - Nieuwe opzet - Brenno de Winter
 * 0.53 - Januari 2024 - Herstructureren en herschrijven - Brenno de Winter
 * 0.54 - Maart 2024 - Omgezet naar markdown-formaat en beschikbaar stelling via github.com.
+* 0.55 - Juni 2024 - verbeteringen in aanloop naar CIP conferentie.
+
+#include "Over informatiebeveiligingsonderzoek.md"
 
