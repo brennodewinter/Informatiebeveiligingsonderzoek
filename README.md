@@ -18,26 +18,29 @@ Het langslopen van de noodzakelijke eisen kan alleen goed werken als vraag en an
 
 Het informatiebeveiligingsonderzoek met auditwaarde draait om een aantal zekerheden, die aan het onderzoek is te ontleden:
 1. Duidelijkheid in deskundigheid. Op basis van de certificering is duidelijk dat het onderzoek is uitgevoerd onder verantwoordelijkheid van iemand die afdoende is geschoold.
-2. Duidelijkheid in compleetheid. Op basis van de standaarden, die volledig worden uitgelopen, is er zekerheid dat de testen die minimaal moeten worden uitgevoerd zijn uitgevoerd. Als deze niet relevant zijn of niet kunnen dan is dat gedocumenteerd. U weet dat er een compleet onderzoek is uitgevoerd.
-3. Duidelijkheid in proces. Er is een duidelijk en helder omschreven proces dat volledig is uitgelopen. 
+2. Duidelijkheid in proces. Er is een duidelijk en helder omschreven proces dat volledig is uitgelopen. 
+3. Duidelijkheid in compleetheid. Op basis van de standaarden, die volledig worden uitgelopen, is er zekerheid dat de testen die minimaal moeten worden uitgevoerd zijn uitgevoerd. Als deze niet relevant zijn of niet kunnen dan is dat gedocumenteerd. U weet dat er een compleet onderzoek is uitgevoerd.
 4. Duidelijkheid over context. Op basis van de beschikbare informatie is precies duidelijk welke context-informatie wel of niet beschikbaar is. 
 5. Duidelijkheid in scope. Het is duidelijk wat er precies is onderzocht.
 6. Duidelijkheid in onderzoek. Het is duidelijk welke onderzoeken er precies zijn uitgevoerd en dat deze passend bij het product zijn.
 7. Duidelijkheid in bewijsvoering. Het onderzoeksbewijs is beschikbaar om reproduceerbaarheid te bieden aan anderen (en daarmee auditwaarde aan het onderzoek toe te voegen) en bewijs te bieden dat het onderzoek is uitgevoerd.
 8. Duidelijkheid in bevindingen. Bij bevindingen wordt uniform en zo objectief mogelijk gecommuniceerd over gevonden problemen, de impact en mogelijke oplossingsrichtingen.
+9. Duidelijkheid in gevolgde standaarden. Bij het uitvoeren van het informatiebeveiligingsonderzoek is houvast gezocht bij internationale standaarden, waardoor duidelijk is welke onderzoeken minimaal zijn uitgevoerd.
 
 Dit document is het product van het bundelen van veel kennis en lering trekken uit incidenten. Natuurlijk staat informatiebeveiliging niet stil en zal het document regelmatig aan de nieuwe praktijk moeten worden bijgesteld. Ondertussen heeft u eindelijk een stuk houvast in handen. Succes!
 
 ## Inrichting van het document
 Dit document is opgebouwd in diverse onderdelen, waardoor alle elementen van technisch informatiebeveiligingsonderzoek goed aan bod komen. Het valt uiteen in een aantal secties. 
 
-De eerste sectie ‘Over informatiebeveiligingsonderzoek’ beschrijft de juridische aspecten, de soorten onderzoek en andere relevante onderdelen van informatiebeveiligingsonderzoek. 
+De eerste sectie ‘Over informatiebeveiligingsonderzoek’ beschrijft de soorten onderzoek, definitie en andere relevante onderdelen van informatiebeveiligingsonderzoek. 
 
-In de tweede sectie ‘Informatiebeveiligingsonderzoek uitvoeren’ volgt het (laten) uitvoeren van een dergelijk onderzoek. In de derde sectie ‘Informatiebeveiligingsonderzoek toetsen’ treft u de stappen voor het toetsen van een ontvangen rapportage aan. 
+In de tweede sectie ‘Informatiebeveiligingsonderzoek met auditwaarde’ volgen de eisen om te kunnen spreken van een informatiebeveiligingsonderzoek met auditwaarde. 
 
-In de derde sectie 'Juridische aspecten' komen de juridische aspecten aan bod. Dit gaat enerzijds over verplichtingen die er zijn om tot deugdelijk onderzoek te komen alsmede de juridische aspecten bij het uitvoeren van het informatiebeveiligingsonderzoek.
+In de derde sectie 'Informatiebeveiligingsonderzoek toetsen' volgt de informatie die nodig is om bij het beoordelen van het aangeleverde onderzoek vast te stellen of aan alle punten is voldaan. In het geval dat dit niet zo is wordt per onderdeel uitgelegd wat er ontbreekt en wat dat inhoudelijk betekent.
 
-Tot slot zijn er in de laatste sectie verschillende onderliggende stukken opgenomen in de appendices.
+In de vierde sectie 'Juridische aspecten' komen de juridische aspecten aan bod. Dit gaat enerzijds over verplichtingen die er zijn om tot deugdelijk onderzoek te komen alsmede de juridische aspecten bij het uitvoeren van het informatiebeveiligingsonderzoek.
+
+In de vijfde en laatste sectie zijn er in de laatste sectie verschillende onderliggende stukken opgenomen in de appendices.
 
 ## Versie historie
 * 0.01 - Juli 2020 - Eerste draft met inkoopeisen - Brenno de Winter
@@ -51,7 +54,7 @@ Tot slot zijn er in de laatste sectie verschillende onderliggende stukken opgeno
 * 0.52 - December 2023 - Nieuwe opzet - Brenno de Winter
 * 0.53 - Januari 2024 - Herstructureren en herschrijven - Brenno de Winter
 * 0.54 - Maart 2024 - Omgezet naar markdown-formaat en beschikbaar stelling via github.com.
-* 0.55 - Juni 2024 - verbeteringen in aanloop naar CIP conferentie.
+* 0.55 - Juni 2024 - verbeteringen in aanloop naar CIP conferentie. - Brenno de Winter, Jeroen Diel
 
 # Over informatiebeveiligingsonderzoek
 
@@ -92,7 +95,7 @@ De noodzaak tot het volgen van vaste terminologie en de bijbehorende inhoudelijk
 
 In dit hoofdstuk vindt u een aantal gangbare digitaal-gerelateerde veiligheidsonderzoeken op, (ii) wijst op door de wetgever benoemde en soms daarbij gedefinieerde onderzoeken en (iii) doet bij gebreke daarvan voorstellen voor werkdefinities voor gebruik binnen WVS Concern. Door de eenduidige wijze van vastlegging wil het WVS/CISO Concern Office onduidelijkheid en misverstand voorkomen, de kwaliteit van onderzoeken verder beteren en daarmee de digitale weerbaarheid verhogen. 
 
-Digitale veiligheidsonderzoeken kunnen verschillende kenmerken hebben. Enkele mogelijkheden. Wie voorafgaand aan levering dan wel livegang van een applicatie gaat testen, voert proactief een veiligheidsonderzoek uit. Van reactief handelen is in dit geval sprake indien er tijdens het draaien in productie een incident heeft voorgedaan.  
+Digitale veiligheidsonderzoeken kunnen verschillende kenmerken hebben. Enkele mogelijkheden. Wie voorafgaand aan levering dan wel livegang van een applicatie gaat testen, voert proactief een veiligheidsonderzoek uit. Van reactief handelen is in dit geval sprake indien er tijdens het draaien in productie een incident heeft voorgedaan. 
 
 Een onderzoek kan verder van buiten naar binnen worden uitgevoerd (offensief) of van binnenuit. Ook een combinatie is mogelijk. Bij ieder digitaal veiligheidsonderzoek stelt de onderzoeker, als regel in nauwe samenspraak met de opdrachtgever, mede van tevoren vast of het onderzoek impact mag hebben. Een **“non-intrusive” digitaal veiligheidsonderzoek** kan bijvoorbeeld het proactief en scannen van openbaar toegankelijke netwerk- en informatiesystemen van essentiële en belangrijke entiteiten behelzen, zoals een benoemde wettelijke taak voor een computer security incident respons team (CSIRT), maar zonder negatieve gevolgen voor de bedrijfsvoering. 
 
@@ -132,7 +135,7 @@ Omdat het vaak bij informatiebeveiligingsonderzoek onduidelijk is wat een bepaal
 * Een omgeving. Met omgeving wordt het geheel van servers en software bedoeld dat nodig is om specifieke functionaliteiten aan te kunnen bieden.
 
 
-# Informatiebeveiligingsonderzoek met auditwaarde
+# Informatiebeveiligingsonderzoek met auditwaarde 
 Om te kunnen spreken van een Informatiebeveiligingsonderzoek met auditwaarde moet aan een aantal zaken worden voldaan:
 
 ## Duidelijkheid in deskundigheid. Op basis van de certificering is duidelijk dat het onderzoek is uitgevoerd onder verantwoordelijkheid van iemand die afdoende is geschoold.
@@ -161,7 +164,7 @@ De geselecteerde certificeringen zijn gebaseerd op het kwalificatieschema van he
 **EIS:**
 > De rapportage levert bewijs van de certificering in de vorm van een link naar een online validatieplatform om de authenticiteit van de geclaimde certificering te valideren of een kopie van het diploma, waardoor andere validatie mogelijk is.
 
-Wat levert het op: Dit maakt het mogelijk om vast te stellen dat de rapporteur van de rapportage inderdaad beschikt over de geclaimde certificering, waaruit professionaliteit blijkt.
+Wat levert het op: Dit maakt het mogelijk om vast te stellen (te valideren) dat de rapporteur van de rapportage inderdaad beschikt over de geclaimde certificering, waaruit professionaliteit blijkt.
 
 ### EIS 1.4 Benoemen van de versie van de rapportage
 **EIS:**
@@ -184,6 +187,8 @@ Wat levert het op: Dit maakt duidelijk voor welke versie van het document wordt 
 Wat levert het op: Een handtekening onder een rapportage dient als een formeel bewijs van goedkeuring, verantwoordelijkheid en authenticiteit. Het toont aan dat de ondertekenaar instemt met de inhoud van het document, bevestigt dat de informatie naar beste weten correct en compleet is, en draagt juridische en professionele verantwoordelijkheid voor wat erin staat. Dit versterkt het vertrouwen en de geloofwaardigheid van het rapport, zowel intern binnen een organisatie als extern naar stakeholders, klanten, of toezichthoudende instanties. 
 
 ## Duidelijkheid in proces. 
+
+
 
 ## Duidelijkheid over context. Op basis van de beschikbare informatie is precies duidelijk welke context-informatie wel of niet beschikbaar is. 
 
@@ -245,6 +250,25 @@ Wat levert het op: Dit maakt duidelijk voor welke versie van het document wordt 
 Wat levert het op: Een handtekening onder een rapportage dient als een formeel bewijs van goedkeuring, verantwoordelijkheid en authenticiteit. Het toont aan dat de ondertekenaar instemt met de inhoud van het document, bevestigt dat de informatie naar beste weten correct en compleet is, en draagt juridische en professionele verantwoordelijkheid voor wat erin staat. Dit versterkt het vertrouwen en de geloofwaardigheid van het rapport, zowel intern binnen een organisatie als extern naar stakeholders, klanten, of toezichthoudende instanties. 
 
 ## Duidelijkheid in proces. 
+Een duidelijk proces geeft helderheid aan verzoeker, onderzoeker en ontvanger van een rapportage en geeft duidelijk dat alle stappen zijn uitgevoerd. Tijdens het onderzoek geeft het duidelijk wat de status van het proces is. Deze houvast geeft ook duidelijkheid of een compleet onderzoek is uitgevoerd. 
+
+### EIS 2.1: Proces van de Pentest Execution Standard volgen
+**EIS:**
+Het onderzoek wordt uitgevoerd volgens de zeven fasen van de Pentest Execution Standard (PTES) (https://www.pentest-standard.org/index.php/Main_Page). De zeven fasen zijn:
+1. Interacties vóór de betrokkenheid (Pre-engagement Interactions) 
+2. Informatie verzamelen (Intelligence Gathering)
+3. Modellering van bedreigingen(Threat Modeling)
+4. Kwetsbaarheidsanalyse(Vulnerability Analysis)
+5. Exploitatie(Exploitation)
+6. Post-exploitatie(Post Exploitation)
+7. Rapportage(Reporting)
+
+Wat levert het op: Dit maakt duidelijk voor welke versie van het document wordt getekend.
+
+
+
+
+
 
 ## Duidelijkheid over context. Op basis van de beschikbare informatie is precies duidelijk welke context-informatie wel of niet beschikbaar is. 
 
@@ -256,7 +280,13 @@ Wat levert het op: Een handtekening onder een rapportage dient als een formeel b
 
 ## Duidelijkheid in bevindingen. Bij bevindingen wordt uniform en zo objectief mogelijk gecommuniceerd over gevonden problemen, de impact en mogelijke oplossingsrichtingen.
 
- Juridische Aspecten van Informatiebeveiligingsonderzoek
+## Duidelijkheid in standaarden. Bij het uitvoeren van onderzoek wordt gebruik gemaakt van standaarden, zodat zoveel mogelijk uniformiteit in werkwijzen en handelingen wordt verkregen.
+
+Er wordt gebruik gemaakt voor de volgende standaarden:
+1. Voor het onderzoeksproces van een onderzoek wordt gebruik gemaakt van de Pentest Execution Standard (http://www.pentest-standard.org/index.php/Main_Page). De standaard beschrijft de zeven fasen van onderzoek. 
+
+
+# Juridische Aspecten van Informatiebeveiligingsonderzoek
 ## Algemeen 
 Al jaren is het in Nederland een verplichting om maatregelen te nemen om de ICT-omgevingen te beschermen tegen inbreuken en andere incidenten. Voor overheidsorganisaties geldt bovendien de verplichting om daarnaast beleid uit te voeren, zoals bijvoorbeeld in de Baseline Informatiebeveiliging Overheid (BIO) staat. Als uitgangspunt maakt het informatiebeveiligingsrecht gebruik van normen. Deze zijn in Nederland en Europa veelal open en gebaseerd op risico. Op basis daarvan moeten beschermingsmaatregelen worden genomen. Dat is de inkleuring van de zorgplichten, die er zijn. 
 
