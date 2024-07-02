@@ -616,9 +616,6 @@ jection.html)
 * **OWASP WSTG:**
     * None
 
-This mapping ensures that the NOREA DigiD criteria align with the detailed guidelines and tests specified in the OWASP WSTG v4.2. For further details, you can refer to the official [Logius documentation](https://www.logius.nl).
-2 min
-
 ## Verificatietabel DigiD - WSTG
 | **NOREA Check** | **OWASP WSTG Checks** | **Tested** |
 |-----------------|------------------------|------------|
