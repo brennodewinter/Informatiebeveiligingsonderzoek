@@ -522,3 +522,110 @@ Pentesting wordt algemeen beschouwd als een onvermijdelijke maatregel:
 2. die juridisch noodzakelijk om te kunnen voldoen aan algemeen-wettelijke voorschriften (‘*legal compliance*’), sectorale voorschriften (‘*regulatory compliance*’) en in voorkomende gevallen tevens aan contractuele afspraken (‘*contractual compliance*’). 
 
 Een zorgvuldige juridische uitvoering van het onderzoek beperkt tevens de kans op schade en aansprakelijkheid (risicobeperking). Bovendien is juridische expertise vereist om binnen de geldende wettelijke kaders optimaal te kunnen testen en op basis van de bevindingen, analyses en aanbevelingen de digitale weerbaarheid van een organisatie te vergroten (waardecreatie). 
+
+# Apendices
+
+## DigiD-mapping
+
+### 1. Authentication and Session Management
+* **NOREA DigiD:**
+    * **U/TV.01**: De inzet van identificatie- en toegangsmechanismen biedt betrouwbare en doeltreffende methoden voor het vastleggen en verifiëren van gebruikersidentiteiten, het toekennen van gebruikersrechten, het beheersbaar maken van het gebruik van deze middelen en het automatiseren van arbeidsintensieve taken.
+* **OWASP WSTG:**
+    * [WSTG-ATHN-01: Testing for Credentials Transported over an Encrypted Channel](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/01-Testing_for_Credentials_Transported_over_an_Encrypted_Channel.html)
+    * [WSTG-ATHN-02: Testing for Default Credentials](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/05-Authentication_Testing/02-Testing_for_Default_Credentials.html)
+    * [WSTG-ATHN-03: Testing for Weak Lock Out Mechanism](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/05-Authentication_Testing/03-Testing_for_Weak_Lock_Out_Mechanism.html)
+    * [WSTG-ATHN-04: Testing for Bypassing Authentication Schema](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/05-Authentication_Testing/04-Testing_for_Bypassing_Authentication_Schema.html)
+    * [WSTG-ATHN-05: Testing for Vulnerable Remember Password](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/05-Authentication_Testing/05-Testing_for_Vulnerable_Remember_Password.html)
+    * [WSTG-ATHN-06: Testing for Browser Cache Weaknesses](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/05-Authentication_Testing/06-Testing_for_Browser_Cache_Weaknesses.html)
+    * [WSTG-ATHN-07: Testing for Weak Password Policy](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/05-Authentication_Testing/07-Testing_for_Weak_Password_Policy.html)
+    * [WSTG-ATHN-08: Testing for Weak Security Question Answer](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/05-Authentication_Testing/08-Testing_for_Weak_Security_Question_Answer.html)
+    * [WSTG-ATHN-09: Testing for Weak Password Change or Reset Functionalities](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/05-Authentication_Testing/09-Testing_for_Weak_Password_Change_or_Reset_Functionalities.html)
+    * [WSTG-ATHN-10: Testing for Weaker Authentication in Alternative Channel](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/05-Authentication_Testing/10-Testing_for_Weaker_Authentication_in_Alternative_Channel.html)
+    * [WSTG-ATHN-11: Testing for Exposed Session Variables](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/05-Authentication_Testing/11-Testing_for_Exposed_Session_Variables.html)
+    * [WSTG-ATHN-12: Testing for Cross Site Request Forgery](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/05-Authentication_Testing/12-Testing_for_Cross_Site_Request_Forgery.html)
+    * [WSTG-ATHN-13: Testing for Logout Functionality](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/05-Authentication_Testing/13-Testing_for_Logout_Functionality.html)
+    * [WSTG-ATHN-14: Testing for Browser Cache Management](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/05-Authentication_Testing/14-Testing_for_Browser_Cache_Management.html)
+    * [WSTG-ATHN-15: Testing for Session Fixation](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/05-Authentication_Testing/15-Testing_for_Session_Fixation.html)
+    * [WSTG-ATHN-16: Testing for Cross Site Script Inclusion](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/05-Authentication_Testing/16-Testing_for_Cross_Site_Script_Inclusion.html)
+
+### 2. Authorization and Access Control
+* **NOREA DigiD:**
+    * **U/WA.02**: Het beheer van de webapplicatie is procesmatig en procedureel, waarbij bevoegde beheerders taken uitvoeren op basis van functieprofielen.
+* **OWASP WSTG:**
+    * [WSTG-ATHZ-01: Testing Directory Traversal/File Include](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/06-Authorization_Testing/01-Testing_Directory_Traversal_File_Include.html)
+    * [WSTG-ATHZ-02: Testing for Bypassing Authorization Schema](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/06-Authorization_Testing/02-Testing_for_Bypassing_Authorization_Schema.html)
+    * [WSTG-ATHZ-03: Testing for Privilege Escalation](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/06-Authorization_Testing/03-Testing_for_Privilege_Escalation.html)
+    * [WSTG-ATHZ-04: Testing for Insecure Direct Object References](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/06-Authorization_Testing/04-Testing_for_Insecure_Direct_Object_References.html)
+    * [WSTG-ATHZ-05: Testing for Cross Site Request Forgery](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/06-Authorization_Testing/05-Testing_for_Cross_Site_Request_Forgery.html)
+    * [WSTG-ATHZ-06: Testing for Insecure Security Misconfiguration](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/06-Authorization_Testing/06-Testing_for_Insecure_Security_Misconfiguration.html)
+
+### 3. Data Validation and Input Sanitization
+* **NOREA DigiD:**
+    * **U/WA.03**: De webapplicatie beperkt de mogelijkheid tot manipulatie door invoer te normaliseren en valideren voordat deze wordt verwerkt.
+    * **U/WA.04**: De webapplicatie beperkt uitvoer tot waarden die veilig kunnen worden verwerkt door de uitvoer te normaliseren.
+* **OWASP WSTG:**
+    * [WSTG-INPV-01: Testing for Reflected Cross Site Scripting](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/01-Testing_for_Reflected_Cross_Site_Scripting.html)
+    * [WSTG-INPV-02: Testing for Stored Cross Site Scripting](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/02-Testing_for_Stored_Cross_Site_Scripting.html)
+    * [WSTG-INPV-03: Testing for SQL Injection](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/03-Testing_for_SQL_Injection.html)
+    * [WSTG-INPV-04: Testing for LDAP Injection](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/04-Testing_for_LDAP_Injection.html)
+    * [WSTG-INPV-05: Testing for XPath Injection](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05-Testing_for_XPath_Injection.html)
+    * [WSTG-INPV-06: Testing for XML Injection](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/06-Testing_for_XML_Injection.html)
+    * [WSTG-INPV-07: Testing for Command Injection](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/07-Testing_for_Command_In
+
+jection.html)
+    * [WSTG-INPV-08: Testing for Format String Injection](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/08-Testing_for_Format_String_Injection.html)
+    * [WSTG-INPV-09: Testing for Code Injection](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/09-Testing_for_Code_Injection.html)
+    * [WSTG-INPV-10: Testing for HTTP Splitting/Smuggling](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/10-Testing_for_HTTP_Splitting_Smuggling.html)
+    * [WSTG-INPV-11: Testing for HTTP Verb Tampering](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/11-Testing_for_HTTP_Verb_Tampering.html)
+    * [WSTG-INPV-12: Testing for HTTP Parameter Pollution](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/12-Testing_for_HTTP_Parameter_Pollution.html)
+    * [WSTG-INPV-13: Testing for Insecure Deserialization](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/13-Testing_for_Insecure_Deserialization.html)
+
+### 4. Configuration and Deployment Management
+* **NOREA DigiD:**
+    * **U/PW.03**: De webserver is ingericht volgens een configuratiebaseline.
+    * **U/PW.05**: Platformbeheer maakt gebruik van veilige (communicatie)protocollen om toegang te krijgen tot beheersmechanismen en wordt uitgevoerd volgens het operationeel beleid voor platforms.
+    * **U/PW.07**: Er is een hardeningsrichtlijn beschikbaar voor de inrichting van platforms.
+* **OWASP WSTG:**
+    * [WSTG-CONF-01: Testing for Configuration Management](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/08-Configuration_and_Deployment_Management_Testing/01-Testing_for_Configuration_Management.html)
+    * [WSTG-CONF-02: Testing for File Extensions Handling](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/08-Configuration_and_Deployment_Management_Testing/02-Testing_for_File_Extensions_Handling.html)
+    * [WSTG-CONF-03: Testing for Sensitive Information in Files](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/08-Configuration_and_Deployment_Management_Testing/03-Testing_for_Sensitive_Information_in_Files.html)
+    * [WSTG-CONF-04: Testing for Old, Backup and Unreferenced Files](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/08-Configuration_and_Deployment_Management_Testing/04-Testing_for_Old_Backup_and_Unreferenced_Files.html)
+    * [WSTG-CONF-05: Testing for Infrastructure Configuration Management](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/08-Configuration_and_Deployment_Management_Testing/05-Testing_for_Infrastructure_Configuration_Management.html)
+    * [WSTG-CONF-06: Testing for Application Configuration Management](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/08-Configuration_and_Deployment_Management_Testing/06-Testing_for_Application_Configuration_Management.html)
+
+### 5. Sensitive Data Exposure
+* **NOREA DigiD:**
+    * **U/WA.05**: De webapplicatie waarborgt de betrouwbaarheid van informatie door het toepassen van privacyverhogende en cryptografische technieken.
+* **OWASP WSTG:**
+    * [WSTG-CRYP-01: Testing for Weak SSL/TLS Configurations](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/09-Testing_for_Weak_SSL_TLS_Configurations.html)
+    * [WSTG-CRYP-02: Testing for Sensitive Data Exposure](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/09-Testing_for_Sensitive_Data_Exposure.html)
+    * [WSTG-CRYP-03: Testing for Weak Encryption](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/09-Testing_for_Weak_Encryption.html)
+    * [WSTG-CRYP-04: Testing for Padding Oracle](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/09-Testing_for_Padding_Oracle.html)
+
+### 6. Logging and Monitoring
+* **NOREA DigiD:**
+    * **C.07**: Logging- en detectie-informatie (registraties en meldingen) en de beveiligingscondities van ICT-systemen worden regelmatig bewaakt (geobserveerd, geanalyseerd) en de bevindingen gerapporteerd.
+* **OWASP WSTG:**
+    * [WSTG-LOGG-01: Testing for Logging Mechanism](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/10-Logging_and_Monitoring_Testing/01-Testing_for_Logging_Mechanism.html)
+    * [WSTG-LOGG-02: Testing for Log Injection](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/10-Logging_and_Monitoring_Testing/02-Testing_for_Log_Injection.html)
+    * [WSTG-LOGG-03: Testing for Insecure Log Storage](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/10-Logging_and_Monitoring_Testing/03-Testing_for_Insecure_Log_Storage.html)
+
+### 7. Incident Response
+* **NOREA DigiD:**
+    * **C.06**: Signaleringsfuncties (registratie en detectie) zijn actief, doeltreffend, effectief en veilig geïmplementeerd in de webapplicatieomgeving.
+* **OWASP WSTG:**
+    * None
+
+This mapping ensures that the NOREA DigiD criteria align with the detailed guidelines and tests specified in the OWASP WSTG v4.2. For further details, you can refer to the official [Logius documentation](https://www.logius.nl).
+2 min
+
+## Verificatietabel DigiD - WSTG
+| **NOREA Check** | **OWASP WSTG Checks** | **Tested** |
+|-----------------|------------------------|------------|
+| U/TV.01: De inzet van identificatie- en toegangsmechanismen biedt betrouwbare en doeltreffende methoden voor het vastleggen en verifiëren van gebruikersidentiteiten, het toekennen van gebruikersrechten, het beheersbaar maken van het gebruik van deze middelen en het automatiseren van arbeidsintensieve taken. | WSTG-ATHN-01: Testing for Credentials Transported over an Encrypted Channel <br> WSTG-ATHN-02: Testing for Default Credentials <br> WSTG-ATHN-03: Testing for Weak Lock Out Mechanism <br> WSTG-ATHN-04: Testing for Bypassing Authentication Schema <br> WSTG-ATHN-05: Testing for Vulnerable Remember Password <br> WSTG-ATHN-06: Testing for Browser Cache Weaknesses <br> WSTG-ATHN-07: Testing for Weak Password Policy <br> WSTG-ATHN-08: Testing for Weak Security Question Answer <br> WSTG-ATHN-09: Testing for Weak Password Change or Reset Functionalities <br> WSTG-ATHN-10: Testing for Weaker Authentication in Alternative Channel <br> WSTG-ATHN-11: Testing for Exposed Session Variables <br> WSTG-ATHN-12: Testing for Cross Site Request Forgery <br> WSTG-ATHN-13: Testing for Logout Functionality <br> WSTG-ATHN-14: Testing for Browser Cache Management <br> WSTG-ATHN-15: Testing for Session Fixation <br> WSTG-ATHN-16: Testing for Cross Site Script Inclusion | |
+| U/WA.02: Het beheer van de webapplicatie is procesmatig en procedureel, waarbij bevoegde beheerders taken uitvoeren op basis van functieprofielen. | WSTG-ATHZ-01: Testing Directory Traversal/File Include <br> WSTG-ATHZ-02: Testing for Bypassing Authorization Schema <br> WSTG-ATHZ-03: Testing for Privilege Escalation <br> WSTG-ATHZ-04: Testing for Insecure Direct Object References <br> WSTG-ATHZ-05: Testing for Cross Site Request Forgery <br> WSTG-ATHZ-06: Testing for Insecure Security Misconfiguration | |
+| U/WA.03: De webapplicatie beperkt de mogelijkheid tot manipulatie door invoer te normaliseren en valideren voordat deze wordt verwerkt. <br> U/WA.04: De webapplicatie beperkt uitvoer tot waarden die veilig kunnen worden verwerkt door de uitvoer te normaliseren. | WSTG-INPV-01: Testing for Reflected Cross Site Scripting <br> WSTG-INPV-02: Testing for Stored Cross Site Scripting <br> WSTG-INPV-03: Testing for SQL Injection <br> WSTG-INPV-04: Testing for LDAP Injection <br> WSTG-INPV-05: Testing for XPath Injection <br> WSTG-INPV-06: Testing for XML Injection <br> WSTG-INPV-07: Testing for Command Injection <br> WSTG-INPV-08: Testing for Format String Injection <br> WSTG-INPV-09: Testing for Code Injection <br> WSTG-INPV-10: Testing for HTTP Splitting/Smuggling <br> WSTG-INPV-11: Testing for HTTP Verb Tampering <br> WSTG-INPV-12: Testing for HTTP Parameter Pollution <br> WSTG-INPV-13: Testing for Insecure Deserialization | |
+| U/PW.03: De webserver is ingericht volgens een configuratiebaseline. <br> U/PW.05: Platformbeheer maakt gebruik van veilige (communicatie)protocollen om toegang te krijgen tot beheersmechanismen en wordt uitgevoerd volgens het operationeel beleid voor platforms. <br> U/PW.07: Er is een hardeningsrichtlijn beschikbaar voor de inrichting van platforms. | WSTG-CONF-01: Testing for Configuration Management <br> WSTG-CONF-02: Testing for File Extensions Handling <br> WSTG-CONF-03: Testing for Sensitive Information in Files <br> WSTG-CONF-04: Testing for Old, Backup and Unreferenced Files <br> WSTG-CONF-05: Testing for Infrastructure Configuration Management <br> WSTG-CONF-06: Testing for Application Configuration Management | |
+| U/WA.05: De webapplicatie waarborgt de betrouwbaarheid van informatie door het toepassen van privacyverhogende en cryptografische technieken. | WSTG-CRYP-01: Testing for Weak SSL/TLS Configurations <br> WSTG-CRYP-02: Testing for Sensitive Data Exposure <br> WSTG-CRYP-03: Testing for Weak Encryption <br> WSTG-CRYP-04: Testing for Padding Oracle | |
+| C.07: Logging- en detectie-informatie (registraties en meldingen) en de beveiligingscondities van ICT-systemen worden regelmatig bewaakt (geobserveerd, geanalyseerd) en de bevindingen gerapporteerd. | WSTG-LOGG-01: Testing for Logging Mechanism <br> WSTG-LOGG-02: Testing for Log Injection <br> WSTG-LOGG-03: Testing for Insecure Log Storage | |
+| C.06: Signaleringsfuncties (registratie en detectie) zijn actief, doeltreffend, effectief en veilig geïmplementeerd in de webapplicatieomgeving. | None | |
